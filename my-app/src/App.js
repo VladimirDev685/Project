@@ -2,9 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import moment from 'moment';
 
-	const currentDate = moment().format("MMM Do YY");
+	const currentDate = moment().format("YYYY");//декларативный подход
 
-export const App=()=>{
+export const App=()=>{//декларативный подход
 	return (
 		<div className="App">
 			<header className="App-header">
